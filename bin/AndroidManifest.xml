@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.webege.proar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".AddCard"
+            android:label="@string/title_activity_add_card" >
+        </activity>
+        <activity
+            android:name=".Navi"
+            android:label="@string/title_activity_navi" >
+        </activity>
+        <activity
+            android:name=".ShowCards"
+            android:label="@string/title_activity_show_cards" >
+        </activity>
+        <activity
+            android:name=".Qrcode"
+            android:label="@string/title_activity_qrcode" >
+        </activity>
+        <activity
+            android:name=".OneCard"
+            android:label="@string/title_activity_one_card" >
+        </activity>
+    </application>
+
+</manifest>
